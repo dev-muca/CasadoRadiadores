@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasadoRadiadores", "CasadoRadiadores\CasadoRadiadores.csproj", "{F3368E64-0937-406B-B7F4-175D4A457B83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DEBUG FULL|Any CPU = DEBUG FULL|Any CPU
+		DEBUG FULL|x64 = DEBUG FULL|x64
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.DEBUG FULL|Any CPU.ActiveCfg = DEBUG FULL|Any CPU
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.DEBUG FULL|Any CPU.Build.0 = DEBUG FULL|Any CPU
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.DEBUG FULL|x64.ActiveCfg = DEBUG FULL|x64
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.DEBUG FULL|x64.Build.0 = DEBUG FULL|x64
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.Debug|x64.ActiveCfg = Debug|x64
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.Debug|x64.Build.0 = Debug|x64
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.Release|x64.ActiveCfg = Release|x64
+		{F3368E64-0937-406B-B7F4-175D4A457B83}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38D66838-C2A1-4F31-A43C-5FED5FACD110}
+	EndGlobalSection
+EndGlobal

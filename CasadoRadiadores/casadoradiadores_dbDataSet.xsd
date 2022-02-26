@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="casadoradiadores_dbDataSet" targetNamespace="http://tempuri.org/casadoradiadores_dbDataSet.xsd" xmlns:mstns="http://tempuri.org/casadoradiadores_dbDataSet.xsd" xmlns="http://tempuri.org/casadoradiadores_dbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="casadoradiadores_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="casadoradiadores_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CasadoRadiadores.Properties.Settings.GlobalReference.Default.casadoradiadores_dbConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_cadastroTableAdapter" GeneratorDataComponentClassName="tb_cadastroTableAdapter" Name="tb_cadastro" UserDataComponentName="tb_cadastroTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="casadoradiadores_dbConnectionString (Settings)" DbObjectName="casadoradiadores_db.tb_cadastro" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `codigo` FROM `tb_cadastro`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="codigo" DataSetColumn="codigo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="casadoradiadores_dbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="casadoradiadores_dbDataSet" msprop:Generator_UserDSName="casadoradiadores_dbDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tb_cadastro" msprop:Generator_TableClassName="tb_cadastroDataTable" msprop:Generator_TableVarName="tabletb_cadastro" msprop:Generator_TablePropName="tb_cadastro" msprop:Generator_RowDeletingName="tb_cadastroRowDeleting" msprop:Generator_RowChangingName="tb_cadastroRowChanging" msprop:Generator_RowEvHandlerName="tb_cadastroRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_cadastroRowDeleted" msprop:Generator_UserTableName="tb_cadastro" msprop:Generator_RowChangedName="tb_cadastroRowChanged" msprop:Generator_RowEvArgName="tb_cadastroRowChangeEvent" msprop:Generator_RowClassName="tb_cadastroRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:unsignedInt" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
